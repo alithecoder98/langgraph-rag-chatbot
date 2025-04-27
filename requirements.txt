@@ -1,0 +1,29 @@
+# Core Packages
+langgraph==0.0.33
+langchain-core==0.2.1
+streamlit==1.33.0
+
+# Google Gemini Integration
+langchain-google-genai==0.0.14
+google-generativeai==0.3.0
+
+# Vector Store Options (use one)
+langchain-chroma==0.0.3  # Preferred
+# OR langchain-community==0.0.29  # Alternative if chroma fails
+
+# Document Processing
+pypdf==4.1.0
+pdf2image==1.17.0
+beautifulsoup4==4.12.0  # For URL processing
+requests==2.31.0
+
+# Text Processing
+langchain-text-splitters==0.0.1
+tiktoken==0.6.0  # For token counting
+
+# Environment Management
+python-dotenv==1.0.0
+
+# Optional (for enhanced functionality)
+unstructured==0.13.4  # Additional file type support
+pydantic==2.6.4  # Data validation
